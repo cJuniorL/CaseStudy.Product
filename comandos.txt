@@ -1,0 +1,6 @@
+1 - Inciar o Docker Engine na máquina.
+2 - Na pasta raiz do projeto rodar o comando docker-compose up -d (irá subir sqlserver, zookeeper, kafka e kafdrop).
+3 - Após os containers subirem, dentro da raiz do repos tem um arquvio chamado migration.sh, execute o mesmo para a estrutura do banco ser criada.
+4 - Acesse a pasta src e rode dotnet run --project CaseStudy.Product.API
+5 - A aplicação tem um swagger conforme o link de exemplo: http://localhost:5071/swagger/index.html
+6 - É possível verificar as mensagens inseridas no tópico através do kafdrop pelo link: http://localhost:19000/
